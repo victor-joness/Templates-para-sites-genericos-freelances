@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+/*font-family: 'Roboto Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+/*font-family: 'Roboto Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: var(--cor5); 
+    box-sizing: border-box;
+}
+
+:root{
+    /*Paleta de Cores*/
+    --cor0: #8A75DB;
+    --cor1: #776CBA;
+    --cor3: #44B8F3;
+    --cor4: #FF7F4C;
+    --cor5: #383D4B;
+    --cor6: #fbece5;
+
+    /*Fontes*/
+    --font-padrao: 'Roboto', sans-serif;
+    --font-titulo: 'Roboto Condensed', sans-serif;
+    --font-titulo2: 'Roboto Condensed', sans-serif;
+    --font-subtitulo: 'Roboto', sans-serif;
+    --font-textura: 'Roboto Mono', monospace;    
+}
+
+@keyframes navLinkFade {
+	from {
+	  opacity: 0;
+	  transform: translateX(50px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateX(0);
+	}
+}
+
+.tab button:hover {
+    transform: scale(1.06); 
+}
+
+.almoco {    
+    transition: 0.4s;     
+  }
+
+
+
+/*button:hover{
+	transition: 0.4s;
+}
+
+button:hover{
+	transform: scale(1.1);    
+}
+
+#apresentacao{
+    background-repeat: repeat-y, repeat-y;
+    animation: fundoAnimado 30s linear infinite;	
+	
+}
+
+@keyframes fundoAnimado{
+    0%{
+        background-position: 0 0, 0 0;        
+    }
+
+    100%{
+        background-position: -500px 0, 500px 0;
+    }
+
+}*/
+

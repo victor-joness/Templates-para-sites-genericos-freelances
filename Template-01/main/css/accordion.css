@@ -1,0 +1,100 @@
+.accordion {
+    color: #444;
+    cursor: pointer;   
+    text-align: left;
+    outline: none;  
+    transition: 0.3s;   
+    }
+    
+    .accordion.active {
+      background-color:var(--cor1);    
+    }
+  
+    .accordion:hover {
+      background-color:var(--cor1);    
+    }
+  
+    .panel {    
+      display: none;    
+      overflow: hidden;    
+      background-color: var(--cor5);         
+    }
+  
+    .descricaopanel{       
+      font-family: var(--font-padrao);    
+      color: var(--cor6);
+    }
+  
+    .plus{
+      color:var(--cor5);
+      font-weight: bold;
+      font-family: var(--font-padrao);    
+  
+      background-color: var(--cor3);      	
+    }
+  
+    .plus:hover{
+      background-color: var(--cor1);         
+    }
+  
+    .imgpalestra{
+        display: flex;
+        justify-content: center;
+        vertical-align:middle;
+    }
+  
+    .horario{
+      color:var(--cor5);
+      font-family: var(--font-textura); 
+      font-weight: bold;
+    }
+     
+    .nome{
+      color:var(--cor5);  
+      font-family: var(--font-padrao);
+      font-weight: bold;
+    }
+  
+    .card{
+      display: flex;
+      align-items: center;        
+    }
+  
+    .almoco {
+      background-color: var(--cor3);
+      text-align: left;
+      outline: none;
+      transition: 0.4s; 
+  
+    }
+  
+    .almoco:hover {
+      background-color: var(--cor3);
+    }
+  
+    .pixel{    
+      background: url(../img/pixel.png), url(../img/fiticone.png);
+      background-repeat: no-repeat;
+      background-position: left top, right top;
+    }
+  
+    .pixel2{    
+      background: url(../img/pixel2.png), url(../img/fiticone.png);
+      background-repeat: no-repeat;
+      background-position: left top, right top;
+    }
+  
+    .listapro {
+      background-color: var(--cor4);
+      text-align: left;
+      outline: none;
+      transition: 0.4s;   
+    }
+    
+    .listapro:hover {
+      background-color: var(--cor1);
+  }
+    
+  
+  
+   

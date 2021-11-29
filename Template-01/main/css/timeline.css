@@ -1,0 +1,108 @@
+.Timeline {
+    display: flex;
+    align-items: center;
+  }
+  
+  .event1,
+  .event2, .event3 {
+    position: relative;    
+  }
+  
+  .event1Bubble {
+    position: absolute;    
+    transition: 0.4s; 
+    background: var(--cor9);   
+  }
+
+  .event1Bubble:hover {
+    position: absolute;    
+    background: var(--cor4);    
+  }
+  
+  .event2Bubble {    
+    position: absolute; 
+    transition: 0.4s; 
+    background: var(--cor9);        
+  }
+
+  .event2Bubble:hover {
+    position: absolute;    
+    background: var(--cor4);     
+  }
+
+  .event3Bubble {
+    position: absolute;    
+    transition: 0.4s; 
+    background: var(--cor9);   
+  }
+
+  .event3Bubble:hover {
+    position: absolute;    
+    background: var(--cor4);    
+  }
+  
+  .event1Bubble:after,  
+  .event2Bubble:after,
+  .event3Bubble:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom: 0;
+  }  
+  
+  .event1Bubble:after {
+    border-top-color: var(--cor5);
+  }
+    
+  .event2Bubble:after {
+    border-top-color: var(--cor5);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .event3Bubble:after {
+    border-top-color: var(--cor5);
+  }
+  
+  .eventTime {
+    display: flex;
+  }
+  
+  .edicao {
+    font-family: var(--font-subtitulo);
+    font-weight: bold;  
+    color: var(--cor5);
+  }
+   
+  .eventTitle {
+    font-family: var(--font-textura);
+    color:var(--cor5);
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+    
+  .now{
+      background-color: var(--cor4);
+      color: var(--cor5);
+      font-family: var(--font-padrao);
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: 0.3s;   
+  }
+
+  .now:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: scale(1.3);
+}

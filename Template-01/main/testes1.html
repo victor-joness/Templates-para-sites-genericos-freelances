@@ -1,0 +1,590 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/menuscroll.css">
+    <link rel="stylesheet" href="css/timeline.css">      
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/acessibilidade.css">      
+    <title>Modelo de site Morderno e responsivo</title>       
+</head>
+
+
+<body class="body" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+
+    <header>
+        
+        <nav class="">
+
+          <a href="#"><img class="logo" src="./img/logo_header.png" alt="logo"></a>
+
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+
+          <!-- OS NOMES DS HREF E DAS CLASSES TEM QUE MUDAR DE ACORDO COM A SEÇÃO -->
+
+          <ul class="nav-list">                       
+            <li class="btn btn1"><a href="#inicio" class="acessibilidade">inicio</a></li>                       
+            <li><a href="#seção2" class="acessibilidade">seção 2</a></li>
+            <li><a href="#seção3" class="acessibilidade">seção 3</a></li>  
+            <li><a href="#seção4" class="acessibilidade">seção 4</a></li>
+            <li><a href="#seção5" class="acessibilidade">seção 5</a></li>    
+            <!-- botao que leva a algum link externo, falta coloca o href -->
+            <li><a href="" target="_blank" class="acessibilidade">BOTAO</a></li>
+            <!-- falta coloca o link do instagram -->
+            <li><a href="" target="_blank" style="display:flex;align-items: center;padding: 8px;"><img src="img/instagram.png" alt="Instagram do usuario" style="height: 30px;"></a></li>             
+            <li><a href="#altocontraste" id="altocontraste" style="display:flex;align-items: center;padding: 8px;" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"><img id="contraste" src="./img/contraste-black.png" alt="contraste" style="height: 30px;"></a></li>
+            <li>
+              <button onclick="fonte('a');" class="fonteacessibilidade" style="display:flex;align-items: center;padding: 8px;border:none;"><img id="fontplus" src="./img/a+black.png" alt="Aumentar fonte" style="height: 30px;"></button>
+            </li>
+            <li>
+              <button onclick="fonte('d');" class="fonteacessibilidade" style="display:flex;align-items: center;padding: 8px;border:none;"><img id="fontless" src="./img/a-black.png" alt="Aumentar fonte" style="height: 30px;"></button>
+            </li>          
+          </ul>          
+          
+        </nav>
+        <!-- seção de inicio do site -->
+        <section id="inicio">          
+
+          <div class="row">
+            <div class="col-4 col-a-12 col-b-12 col-c-6 col-d-4"><img id="logo" src="img/logo_empresa.png"> </div>  
+            <div class="col-8 col-a-12 col-b-12 col-c-6 col-d-8">              
+              <p id="nomedoprojeto">Nome do Projeto<br>Descrição</p>
+              <p id="temadoprojeto" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" class="aos-init aos-animate">Grifado<br>Descrição</p>
+              <picture>
+                <img id="ufctop" src="img/foto_secundaria.png">
+              </picture>
+            </div>
+            <!--<div class="col-1" id="libras">-->                                     
+            </div>        
+                     
+
+          <!-- parte do simbolo de libras , QUE EU TIREI MAIS QUE PODE TER-->
+          <div class="row">
+
+            <div class="col-4 col-a-12 col-b-12 col-c-4 col-d-4">
+              <div id=""><p></p></div>
+            </div>
+
+            <!--<div class="col-4">  
+              <p></p>            
+              <p id="realizacao">Realização:</p>
+              <picture>
+                <img id="" src="">
+              </picture>
+            </div>-->               
+                       
+            <div class="col-8 col-a-12 col-b-12 col-c-8 col-d-8 button aos-init aos-animate" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="1800" data-aos-once="true"><a href="http://crateus.ufc.br/eventos/evento/217" target="_blank"><button class="inscrevase">BOTAO</button></a></div>            
+          </div>
+
+        </section>
+                  
+        <!-- alguns paragrafos soltos pelo site, podendo ser datas, nomes secundarios etc -->
+        <p class="datatextura" id="data1">data caso queira</p>
+        <p class="datatextura" id="data2">data caso queira</p>
+        <!--<p class="datatextura" id="data3">29 nov a 01 dez</p>-->         
+
+    </header>
+
+    <section id="seção2">
+
+      <div class="row titulosecao aos-init aos-animate" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900" data-aos-once="true">
+        <div class="col-12 col-a-12 col-b-12 col-c-12 col-d-12">
+          <h1>Programação</h1>
+        </div>
+      </div>
+
+      <div class="row aos-init aos-animate" id="gradepro" data-aos="fade-up" data-aos-duration="1600" data-aos-once="true">
+
+        <div class="col-4 col-a-12 col-b-12 col-c-4 col-d-4">
+          <div class="tab" style="width: 100%;">
+            <!--<button class="tablinks pixel3" onclick="openCity(event, '27nov')" id="defaultOpen"><h1 class="data">27 Nov</h1><p class="dia">Sábado</p></button>
+            <button class="tablinks pixel4" onclick="openCity(event, '28nov')"><h1 class="data">28 Nov</h1><br><p class="dia">Domingo</p></button>-->
+
+            <!-- BUTON DA SEÇÃO 2 DE DATA , QUE CHAMA A FUNCAO ONDE TEM OS ARRAY COM OS CARDS DAQUELE DETERMINADO DIA/BUTON-->
+            <button class="tablinks pixel3 active" onclick="openCity(event, '29nov')" id="defaultOpen"><h2>29 Nov</h2><br><p class="dia">Segunda</p></button>            
+            <button class="tablinks pixel3" onclick="openCity(event, '30nov')"><h2>30 Nov</h2><br><p class="dia">Terça</p></button>
+          </div>
+        </div> 
+
+        <div class="col-8 col-a-12 col-b-12 col-c-8 col-d-8" style="width: 100%;">
+                  
+          <div id="29nov" class="tabcontent" style="display: block;">
+            <!-- Primeiro card -->
+            <button class="accordion">
+              <div class="row card pixel">
+                <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                  <!--<img class="palestrante" src="img/wellington.png">-->
+                </div>
+                <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                  <p class="horario">TITULO</p>                
+                  <h2>DESCRIÇÃO</h2>                 
+                </div>
+              </div>              
+            </button>
+            <!-- painel que fica em baixo dos cards quando se é apertado -->
+            <div class="panel">
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p><br>
+                  <!--<button class="plus"><a href="#" target="_blank">Saiba mais</a></button>-->
+            </div>
+            <!-- segundo card -->
+            <button class="accordion">
+              <div class="row card pixel2">
+                <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                  <img class="palestrante" src="img/foto_aba.png">
+                </div>
+                <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                  <p class="horario">hora/titulo</p> 
+                  <p class="tema">info bruta</p>                
+                  <h2>info abstraida</h2>
+                  <p class="nome">descrição</p>                  
+                </div>
+              </div>              
+            </button>
+              <!-- painel que fica em baixo dos cards quando se é apertado -->
+              <div class="panel" style="display: none;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br></p><br>
+                    <!--<button class="plus"><a href="#" target="_blank">Saiba mais</a></button>-->
+              </div>
+
+            <!-- terceiro card -->
+            <button class="almoco">
+              <div class="row card pixel2">
+                <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                  <!--<img class="palestrante" src="img/foto.png">-->
+                </div>
+                <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                  <p class="horario">12h00</p>                
+                  <h2>Almoço</h2>                  
+                </div>
+              </div>              
+            </button>
+              <!--<div class="panel">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                <button class="plus"><a href="#" target="_blank">Saiba mais</a></button>
+              </div>-->
+
+            <button class="accordion">
+              <div class="row card pixel2">
+                <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                  <img class="palestrante" src="img/foto_aba.png">
+                </div>
+                <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                  <p class="horario">data/hora/titulo</p>
+                  <p class="tema">info bruta</p>               
+                  <h2>info abstraida</h2>
+                  <p class="nome">descrição</p>                  
+                </div>
+              </div>              
+            </button>
+              <!-- BOTAO DENTRO DO PAINEL DE INFO, FALTA COLOCA O HREF QUE ME LEVA PARA UMA PAGINA EXTERNA -->
+              <div class="panel">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                <button class="plus"><a href="#" target="_blank">Saiba mais</a></button>
+              </div>
+
+            <button class="accordion">
+              <div class="row card pixel">
+                <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                  <img class="palestrante" src="img/foto_aba.png">
+                </div>
+                <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                  <p class="horario">data/hora/titulo</p>
+                  <p class="tema">info bruta</p>                
+                  <h2>info abstraida</h2>
+                  <p class="nome">descrição</p>                  
+                </div>
+              </div>              
+            </button>
+              <div class="panel">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?
+                </p><br>
+                    <!--<button class="plus"><a href="#" target="_blank">Saiba mais</a></button>-->
+              </div>
+
+            <button class="accordion">
+              <div class="row card pixel">
+                <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                  <img class="palestrante" src="img/foto_aba.png">
+                </div>
+                <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                  <p class="horario">data/hora/titulo</p>
+                  <p class="tema">info bruta</p>                
+                  <h2>info abstraida</h2>
+                  <p class="nome">descrição</p>                  
+                </div>
+              </div>              
+            </button>
+              <div class="panel">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                    <button class="plus"><a href="#" target="_blank">Saiba mais</a></button>
+              </div>
+            
+            <button class="accordion">
+              <div class="row card pixel">
+                <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                  <img class="palestrante" src="img/foto_aba.png">
+                </div>
+                <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                  <p class="horario">data/hora/titulo</p>
+                  <p class="tema">info bruta</p>                
+                  <h2>info abstraida</h2>
+                  <p class="nome">descrição</p>                  
+                </div>
+              </div>              
+            </button>
+              <div class="panel">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                    <!--<button class="plus"><a href="#" target="_blank">Saiba mais</a></button>-->
+              </div>
+
+          </div>
+
+          <!-- cards do segundo dia/momento -->
+
+          <div id="30nov" class="tabcontent" style="display: none;">
+            
+            <button class="accordion">
+              <div class="row card pixel">
+                <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                  <img class="palestrante" src="img/foto_aba.png">
+                </div>
+                <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                  <p class="horario">data/hora/titulo</p>
+                  <p class="tema">info bruta</p>                
+                  <h2>info abstraida</h2>
+                  <p class="nome">descrição</p>                  
+                </div>
+              </div>              
+            </button>
+              <div class="panel">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                    <button class="plus"><a href="#" target="_blank">Saiba mais</a></button>
+              </div>
+
+              <button class="accordion">
+                <div class="row card pixel">
+                  <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                    <img class="palestrante" src="img/foto_aba.png">
+                  </div>
+                  <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                    <p class="horario">data/hora/titulo</p>
+                    <p class="tema">info bruta</p>                
+                    <h2>info abstraida</h2>
+                    <p class="nome">descrição</p>                  
+                  </div>
+                </div>              
+              </button>
+                <div class="panel">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                      <button class="plus"><a href="#" target="_blank">Saiba mais</a></button>
+                </div>
+
+                <button class="accordion">
+                  <div class="row card pixel">
+                    <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                      <img class="palestrante" src="img/foto_aba.png">
+                    </div>
+                    <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                      <p class="horario">data/hora/titulo</p>
+                      <p class="tema">info bruta</p>                
+                      <h2>info abstraida</h2>
+                      <p class="nome">descrição</p>                  
+                    </div>
+                  </div>              
+                </button>
+                  <div class="panel">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                        <button class="plus"><a href="#" target="_blank">Saiba mais</a></button>
+                  </div>
+
+                  <button class="accordion">
+                    <div class="row card pixel">
+                      <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                        <img class="palestrante" src="img/foto_aba.png">
+                      </div>
+                      <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                        <p class="horario">data/hora/titulo</p>
+                        <p class="tema">info bruta</p>                
+                        <h2>info abstraida</h2>
+                        <p class="nome">descrição</p>                  
+                      </div>
+                    </div>              
+                  </button>
+                    <div class="panel">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                          <button class="plus"><a href="#" target="_blank">Saiba mais</a></button>
+                    </div>
+
+                    <button class="accordion">
+                      <div class="row card pixel">
+                        <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                          <img class="palestrante" src="img/foto_aba.png">
+                        </div>
+                        <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                          <p class="horario">data/hora/titulo</p>
+                          <p class="tema">info bruta</p>                
+                          <h2>info abstraida</h2>
+                          <p class="nome">descrição</p>                  
+                        </div>
+                      </div>              
+                    </button>
+                      <div class="panel">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                            <button class="plus"><a href="#" target="_blank">Saiba mais</a></button>
+                      </div>
+
+                      <button class="accordion">
+                        <div class="row card pixel">
+                          <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                            <img class="palestrante" src="img/foto_aba.png">
+                          </div>
+                          <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                            <p class="horario">data/hora/titulo</p>
+                            <p class="tema">info bruta</p>                
+                            <h2>info abstraida</h2>
+                            <p class="nome">descrição</p>                  
+                          </div>
+                        </div>              
+                      </button>
+                        <div class="panel">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                              <button class="plus"><a href="#" target="_blank">Saiba mais</a></button>
+                        </div>
+
+                        <button class="accordion">
+                          <div class="row card pixel">
+                            <div class="col-3 col-a-3 col-b-3 col-c-3 col-d-3 imgpalestra">
+                              <img class="palestrante" src="img/foto_aba.png">
+                            </div>
+                            <div class="col-9 col-a-9 col-b-9 col-c-9 col-d-9">
+                              <p class="horario">data/hora/titulo</p>
+                              <p class="tema">info bruta</p>                
+                              <h2>info abstraida</h2>
+                              <p class="nome">descrição</p>                  
+                            </div>
+                          </div>              
+                        </button>
+                          <div class="panel">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, ipsum repellat odio veritatis vero molestias excepturi fugit corrupti porro, aliquam deleniti. Voluptate reprehenderit nam sint obcaecati omnis id labore ab?</p><br>
+                                <button class="plus"><a href="#" target="_blank">Saiba mais</a></button>
+                          </div>
+
+          </div>          
+
+        </div>
+      </div>          
+    </section>
+    
+    <!-- seccao do site que guarda informações em linha do tempo -->
+    <section id="seção3">
+      <div class="row titulosecao">
+        <div class="col-12 aos-init aos-animate" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900" data-aos-once="true">
+          <h1>seçao do site que guarda informações em linha do tempo</h1>
+        </div>
+      </div>      
+      <div class="row">           
+
+        <div class="col-4 col-a-12 col-b-8 col-c-8 col-d-4">
+          <p class="acessibilidade">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+
+        <div class="col-1 col-a-12 col-b-4 col-c-4 col-d-1" style="height: 5em;">
+          <p></p>
+        </div>
+        
+        <div class="col-7 col-a-12 col-b-12 col-c-12 col-d-7" style="height: auto;">
+
+          <div class="Timeline">
+  
+            <svg height="20" width="10%">
+                        
+              <circle cx="11" cy="9" r="3" fill="#383D4B"></circle>  
+              <circle cx="21" cy="9" r="3" fill="#383D4B"></circle>  
+              <circle cx="31" cy="9" r="3" fill="#383D4B"></circle>            
+                                
+            </svg>  
+  
+            <svg height="5" width="10%">
+              <line x1="0" y1="0" x2="100%" y2="0" style="stroke:#383D4B;stroke-width:5"></line>            
+            </svg>
+            
+            <!-- Event 01, falta o href que me leva para onde o buton for acionado -->
+              <div class="event1">
+                
+                <div class="event1Bubble">
+                  <a href="" target="_blank">
+                    <div class="eventTime">
+                      <div class="edicao">BOTAO</div>                  
+                    </div>
+                    <div class="eventTitle">descrição</div>
+                  </a>
+                </div>
+                <!-- bolinha que tem em baixo do button -->
+                <svg height="20" width="20">
+                  <a href="" target="_blank"><circle cx="10" cy="11" r="5" fill="#383D4B"></circle></a>
+                </svg>              
+                
+              </div>
+
+            <!-- linha que fica em baixo dos botao -->
+            <svg height="5" width="30%">
+              <line x1="0" y1="0" x2="300" y2="0" style="stroke:#383D4B;stroke-width:5"></line>            
+            </svg>
+            
+            <!-- Event 02, falta o href que me leva para onde o buton for acionado -->
+              <div class="event2">
+                
+                <div class="event2Bubble">
+                  <a href="" target="_blank">
+                    <div class="eventTime">
+                      <div class="edicao">BOTAO</div>                  
+                    </div>
+                    <div class="eventTitle">LOREM IPSON CRUD SOFN</div>
+                  </a>
+                </div>
+                <!-- bolinha que tem em baixo do button -->
+                <svg height="20" width="20">
+                <a href="" target="_blank"><circle cx="10" cy="11" r="5" fill="#383D4B"></circle></a>
+                </svg>              
+              </div>
+  
+            <!-- linha que fica em baixo dos botao -->
+            <svg height="5" width="30%">
+              <line x1="0" y1="0" x2="100%" y2="0" style="stroke:#383D4B;stroke-width:5"></line>            
+            </svg>
+            
+            <!-- Event 03, falta o href que me leva para onde o buton for acionado -->
+              <div class="event3">
+                
+                <div class="event3Bubble">
+                  <a href="" target="_blank">
+                    <div class="eventTime">
+                      <div class="edicao">BOTAO</div>                  
+                    </div>
+                    <div class="eventTitle">descição</div>
+                  </a>
+                </div>
+                <!-- bolinha que tem em baixo do button -->
+                <svg height="20" width="20">
+                  <a href="http://crateus.ufc.br/fit/" target="_blank"><circle cx="10" cy="11" r="5" fill="#383D4B"></circle></a>
+                </svg>              
+                
+              </div>
+            <!-- linha que fica em baixo dos botao -->
+            <svg height="5" width="20%">
+              <line x1="0" y1="0" x2="100%" y2="0" style="stroke:#383D4B;stroke-width:5"></line>            
+            </svg>
+              <!--  button que sobe para o inicio da pagina -->
+              <a href="#"><div class="now">Agora</div></a>                                
+            
+          </div>
+  
+        </div>
+      </div>
+      <div class="row" style="margin-top: 3em;">
+        <div class="col-12">
+          <p style="color: #c5b5f1; text-transform: uppercase;font-weight: bold;">Realização</p>
+          <div style="display: flex; align-items: center;">
+            <img src="img/svg.png" style="margin: 1em 1.5em 0em 0em;height: 3em;">
+            <img src="img/svg.png" style="margin: 1em 1.5em 0em 0em;height: 3em;">
+          </div>
+        </div>
+      </div>                      
+    </section>       
+
+
+    <!-- Seção dos Patrocinadores -->
+
+    <section id="seção4">
+      <div class="row titulosecao">
+        <div class="col-6 aos-init aos-animate" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900" data-aos-once="true"><h1>Seção que guarda fotos, ex patrocinador</h1></div>
+        <div class="col-6 button">
+          <a href="#" target="_blank" style="cursor: pointer;"><button class="patrocine">Button</button></a>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><img class="imgpatro" src="img/FOTO_PATROCINADOR.png" alt="#"></div>
+        <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><img class="imgpatro" src="img/FOTO_PATROCINADOR.png" alt="#"></div>
+        <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><img class="imgpatro" src="img/FOTO_PATROCINADOR.png" alt="#"></div>
+        <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><img class="imgpatro" src="img/FOTO_PATROCINADOR.png" alt="#"></div>
+        <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><!--<img class="imgpatro" src="img/FOTO_PATROCINADOR.png" alt="#">--></div>
+      </div>                                    
+    </section>
+
+
+    <!-- Seção dos apoiadores -->
+
+    <section id="seção5">
+      <div class="row titulosecao">
+        <div class="col-12 col-a-12 col-b-12 col-c-12 col-d-12 aos-init aos-animate" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900" data-aos-once="true"><h1>Apoiadores</h1></div>
+      </div>
+      <div class="row">
+        <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><img class="imgpatro" src="img/FOTO_APOIADORES.png" alt="#"></div>
+        <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><img class="imgpatro" src="img/FOTO_APOIADORES.png" alt="#"></div>
+        <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><img class="imgpatro" src="img/FOTO_APOIADORES.png" alt="#"></div>
+        <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><img class="imgpatro" src="img/FOTO_APOIADORES.png" alt="#"></div>
+      </div> 
+      
+      <div class="row">
+        <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><img class="imgpatro" src="img/FOTO_APOIADORES.png" alt="#"></div>
+          <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><!--<img class="imgpatro" src="img/FOTO_APOIADORES.png" alt="#">--></div>
+          <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><!--<img class="imgpatro" src="img/FOTO_APOIADORES.png" alt="#">--></div>
+          <div class="col-3 col-a-12 col-b-6 col-c-3 col-d-3 grow"><!--<img class="imgpatro" src="img/FOTO_APOIADORES.png" alt="#">--></div>
+        </div>
+
+    </section>
+      
+
+    <!-- parte do rodapé, onde fica algumas informações -->
+    <footer>
+      <section id="footer">
+        <div class="row">
+          <div class="col-1">
+            <!-- logotipo da empresa na parte de baixo do site, usei o header por ser menor logo, iria ficar com mais destaque, porem, um svg seria o ideal-->
+            <picture>
+              <img id="foorterfit" src="img/logo_header.png" alt="Logotipo da empresa">
+            </picture>
+          </div>
+          <!--  -->
+          <div class="col-11">
+            <p style="font-size: 0.55em; color:#fbece5;font-weight: bold;letter-spacing: 0.1em;">Alguma informação<br>Descição da informação</p>
+            <br>
+            <div style="display: flex;">
+              <h1 style="font-size: 1em;line-height: 1.3em;color:#fbece5;padding-right:30px;">alguma informação maior<br>descrição da formação maior</h1>
+              <picture>              
+                <img id="footerufc" src="img/logo_header.png" alt="logotipom da empresa">
+              </picture>
+            </div>
+          </div>           
+        </div>        
+        <div class="row">
+          <!-- linha reta que fica no rodapé -->
+          <div class="col-12" style="border-top: solid 1.5px #fbece5; border-radius: 0.75px;">
+            <p style="font-size: 0.85em;color:#fbece5;text-align: center;">© Acesso e uso livre, mas não use como se fosse seu</p>
+          </div>                    
+        </div>        
+      </section>      
+    </footer>      
+
+    <!-- parte dos scripts -->
+    <script src="js/mobile-navbar.js"></script>
+    <script src="js/table.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/menuscroll.js"></script>      
+    <script src="js/acessibilidade.js"></script> 
+    <script src="js/fonte.js"></script>   
+  
+</body>

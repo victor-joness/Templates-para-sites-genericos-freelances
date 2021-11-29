@@ -1,0 +1,53 @@
+/* Style the tab */
+.tab {
+	/*float: left;*/
+	/*border: 1px solid var(--cor5);*/
+	/*background-color: var(--cor8);*/
+	width: 100%;
+	height: auto;	
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+	display: flex;	
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;	
+  }  
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+	background-color: var(--cor1);	
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+		background-color: var(--cor5);	
+  	}
+  
+  /* Style the tab content */
+  .tabcontent {
+		/*float: left;
+		padding: 15px;
+		border: 1px solid #ccc;*/
+		width: 100%;	
+		height: auto;	
+  	}
+
+	#gradepro{
+		display: flex;
+		height: auto;
+	}
+
+	.dia{
+		color:var(--cor6);
+		font-family: var(--font-padrao);	
+	}
+
+	.tablinks{	
+		display: flex;
+		justify-content: space-between;
+		align-items: center;	
+		color:var(--cor6);	
+}
