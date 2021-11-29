@@ -7,7 +7,7 @@
   Templates para Freelances
 </h2>
 
-### Depoimentos de alunos
+### Video de como é o site - apenas para me lembrar
 
 - [Template 01](https://youtu.be/mu1apfgG6dE)
 - [Template 02]()
