@@ -16,6 +16,11 @@
 - [Template 05]()
 - [Template 06]()
 
+### Tecnologias utilizadas
+- [HTML]
+- [CSS]
+- [JAVASCRIPT]
+
 ### Tem alguma dúvida?
 
 Para falar comigo, envie um e-mail para victorjonesmesquits@gmail.com
