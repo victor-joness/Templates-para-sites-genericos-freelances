@@ -1,0 +1,403 @@
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+/*font-family: 'Roboto Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+/*font-family: 'Roboto Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+/* resetando o site */
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* definindo nossas nav, ul */
+nav, ul{
+    list-style: none;
+}
+
+/* definindo nossos links */
+a{
+    opacity: 0.9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* quando cliclar em algum link, voltamos a opacidade */
+a:hover{
+    opacity: 1;
+}
+
+
+:root{
+    /*Paleta de Cores*/
+    --cor0: #8A75DB;
+    --cor1: #776CBA;
+    --cor3: #44B8F3;
+    --cor4: #FF7F4C;
+    --cor5: #383D4B;
+    --cor6: #fbece5;
+	--cor7: #f4d1c1;
+	--cor8: #C5B5F1;
+	--cor9: #c5b5f1;
+
+    /*Fontes*/
+    --font-padrao: 'Roboto', sans-serif;
+    --font-titulo: 'Roboto Condensed', sans-serif;
+    --font-titulo2: 'Roboto Condensed', sans-serif;
+    --font-subtitulo: 'Roboto', sans-serif;
+    --font-textura: 'Roboto Mono', monospace;    
+}
+
+header{
+    background-color:#8A75DB;
+    width: 100%;
+    position: absolute; /* para fica mostrando ele sempre, mesmo se eu descer a pagina do site, lembrar de colcoar o top e o left*/
+        top: 0;
+        left: 0;
+    display: flex;
+    justify-content: space-between; /*  para deixar um item na esquerda (logo) e o outro na direita (lista), fazendo assim o alinhamento horinzontal */
+    align-items: center; /*  para fazer o alinhamento vertical */
+    padding: 20px 50px; /*  dando um espaçamento de 20px no top e na base, e de 50px nas laterais */
+}
+
+/*modificando apenas as img dentro do header -> diminuindo o tamanho da logo*/
+header img{
+    width: 200px;  
+}
+
+header nav{
+    display: flex;  /* fazendo isso, fazemos com que os 3 flex-basis, flex-shrink, flex-grow, fiquem por padrao e portanto alinhanndo eles em linha */
+}
+
+header li a{
+    background-color:#fff;
+    padding: 10px;
+    border-radius: 5%;
+    color: rgb(2, 2, 2)
+}
+
+header li{
+    margin: 0px 5px;
+}
+
+/* breackpoint, quando meu menu atingir 700px de largura ele vai fazer o seguinte*/
+@media(max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    header img {
+        margin-bottom: 15px;
+    }
+}
+
+/* hero */
+/* ponto . , por ser uma section class */
+.hero{
+    background-image: url(./img/hero.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1{
+    font-size: 3.2rem;  /*  mais ou menos 320% => 16x3,2= 51px */
+    margin-bottom: 15px;
+}
+
+.hero h3{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.hero a {
+    background-color: #fff;
+    color: #383D4B;
+    padding: 15px;
+    border-radius: 5%;
+    text-transform: uppercase;
+}
+
+/* mais um breackPoint, agora o hero está responsivo*/
+@media(max-width:700px){
+    .hero h1{
+        font-size: 2.5rem;
+    }
+    .hero h3{
+        font-size: 1.5rem;
+    }
+    .hero a {
+        padding: 10px;
+    }
+}
+
+/* conheça o hotel */
+
+.conheça-o-hotel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 50px;
+}
+
+.conheça-o-hotel h3{
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #8A75DB;
+    text-align: center;
+}
+
+.conheça-o-hotel p{
+    max-width: 800px;
+    margin-bottom: 35px;
+    color: #8A75DB;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.conheça-o-hotel hr {
+    width: 300px;
+    background-color:#8A75DB;
+    height: 2px;
+    margin-bottom: 30px;
+    color: #8A75DB;
+    border: none;
+}
+
+.conheça-o-hotel .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conheça-o-hotel .grid li{
+    height: 350px;
+    padding: 10px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.conheça-o-hotel .grid li.small{
+    flex-basis: 40%;
+}
+
+.conheça-o-hotel .grid li.large{
+    flex-basis: 60%;
+}
+
+/* mais um breapoint, agora o grid está responsivo */
+
+@media(max-width:700px){
+    .conheça-o-hotel .grid li.small,.conheça-o-hotel .grid li.large{
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width:630px){
+    .conheça-o-hotel .grid li.small,.conheça-o-hotel .grid li.large{
+        flex-basis: 100%;
+    }
+}
+
+/* caracteristicas */
+
+.caracteristicas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 50px;
+    background-color:#C5B5F1;
+}
+
+.caracteristicas h3{
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #fff;
+    text-align: center;
+}
+
+.caracteristicas p{
+    max-width: 800px;
+    margin-bottom: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.caracteristicas hr {
+    width: 300px;
+    background-color:#8A75DB;
+    height: 2px;
+    margin-bottom: 30px;
+    color: #8A75DB;
+    border: none;
+}
+
+.caracteristicas .grid {
+    width: 100%;
+    display: flex;
+}
+
+.caracteristicas .grid li{
+    height: 350px;
+    padding: 0 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.caracteristicas .grid li i {
+    color: #8A75DB;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.caracteristicas .grid li h4 {
+    color: #000000;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.caracteristicas .grid li p {
+    color: #fff;
+    font-size: 1.222rem;
+}
+
+/* mais um breapoint, agora o caracteristicas está responsivo */
+
+@media(max-width:790px){
+    .caracteristicas .grid{
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+}
+
+/* NewsLatter */
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter h3{
+    color: #8A75DB;
+    padding: 30px;
+    font-size: 2rem;
+}
+
+.newsletter p{
+    font-size: 1.2rem;
+    color: #8A75DB;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.newsletter hr {
+    width: 300px;
+    background-color:#8A75DB;
+    height: 2px;
+    margin-bottom: 30px;
+    color: #8A75DB;
+    border: none;
+}
+
+.newsletter form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+}
+
+.newsletter form input{
+    padding: 15px;
+    border: 2px solid var(--cor1);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.newsletter form button {
+    padding: 15px;
+    border: 2px solid var(--cor1);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: #C5B5F1;
+    margin-left: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* mais um breackpoint agora o newletter ta responsivo */
+
+@media(max-width:790px){
+    .newsletter form input{
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+footer {
+    display: flex;
+    padding: 50px 0px;
+    background-color:#383D4B;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer ul {
+    color: #fff;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+footer ul .fab {
+    background-color: #C5B5F1;
+    padding: 10px;
+    border: 1px solid var(--cor1);
+    border-radius: 100%;
+}
+
+
+footer ul .fas {
+    background-color: #C5B5F1;
+    padding: 10px;
+    border: 1px solid var(--cor1);
+    border-radius: 100%;
+}
+
+footer li ul a{
+    font-size: 2rem;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer ul li a i {
+    color:#8A75DB;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
