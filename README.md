@@ -55,7 +55,7 @@
 - Login and logout (em construção, parte visual pronta)
 - carrossel ()
 - Modals (em construção o script)
-- Animation (a ser adicionado)
+- Animation (Update- 3 animations add)
 
 # 👷 Como rodar
 
