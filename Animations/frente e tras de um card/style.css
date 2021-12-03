@@ -1,0 +1,49 @@
+.card {
+    perspective: 150rem;
+    position: relative;
+    height: 50rem;
+    max-width: 400px;
+    margin: 2rem;
+    box-shadow: none;
+    background: none;
+    font-family:Arial;
+  }
+  
+  .card-side {
+    height: 35rem;
+    border-radius: 15px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding:2rem;
+    color: white
+  }
+
+  img{
+    
+    height: 100%;
+    border-radius: 15px;
+    align-content: center;
+  }
+  
+  .card-side.back {
+    transform: rotateY(-180deg);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+  }
+  
+  .card-side.front {
+    background-color: #0093E9;
+    background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+  }
+  
+  .card:hover .card-side.front {
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover .card-side.back {
+    transform: rotateY(0deg);
+  }
