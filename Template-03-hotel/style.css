@@ -336,22 +336,31 @@ header li{
     padding: 15px;
     border: 2px solid var(--cor1);
     border-radius: 4px;
-    margin-bottom: 20px;
     width: 200px;
     background-color: #C5B5F1;
-    margin-left: 10px;
     cursor: pointer;
     text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.newsletter form textarea {
+    padding: 6px;
+    border: 2px solid var(--cor1);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 400px;
 }
 
 /* mais um breackpoint agora o newletter ta responsivo */
 
-@media(max-width:790px){
+@media(max-width:1000px){
     .newsletter form input{
         flex-basis: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 }
+
 
 footer {
     display: flex;

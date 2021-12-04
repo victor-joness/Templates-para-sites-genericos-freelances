@@ -65,12 +65,20 @@
     <section class="newsletter" id="newsletter">
         <h3>Newsletter</h3>
         <p>
-            Assine nossa newsletter para se manter atualizado com nossos serviços e a programação de nosso site cultural
+            Assine nossa newsletter para se manter atualizado com nossos serviços e a programação de nosso site cultural ou Mande uma mensagem pra gente
         </p>
         <hr>
-        <form>
-            <input type="text" class="text" placeholder="Email">
-            <button> Cadastrar </button>
+        <!-- é bom da uma olhada na documentação -->
+        <form action="https://formsubmit.co/jonasdado2019@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Templates-para-sites-genericos-freelances/Template-03-hotel/index.html">
+            <!-- <input type="hidden" name="_cc" value="another@email.com"> -->  <!-- para enviar pra varias pessoas -->
+            <input type="hidden" name="_autoresponse" value="ja mando a resposta">  <!-- envia uma mensage automatica para a pessoa que me enviou algo-->
+            <input type="hidden" name="_captcha" value="false"> <!-- tira o captcha , porem nao é recomendado em grande escala -->
+            <input type="text" name="name" placeholder="Nome">
+            <input type="email" name="email" class="text" placeholder="Email">
+            <input type="text" name="subject" class="text" placeholder="Asunto">
+            <textarea name="message" placeholder="Mensagem"></textarea>
+            <button type="submit"> Enviar </button>
         </form>
     </section>
     
