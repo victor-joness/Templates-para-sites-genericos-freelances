@@ -51,11 +51,14 @@
 ### :memo: Funcionalidades: 
 - Buttons and sections prontas para serem adaptadas
 - Responsive
-- Newslatter (em construção, parte visual pronta)
+- Newslatter                                                                                    
+  ->Integrado com o front-end, mais básico (consumindo api do formsubmit) ✔️                                                               
+  ->Integrado com o Back-end (Em construção) 🚧
+  
 - Login and logout (em construção, parte visual pronta)
 - carrossel ()
 - Modals (em construção o script)
-- Animation (a ser adicionado)
+- Animation (Update- 3 animations add)
 
 # 👷 Como rodar
 
