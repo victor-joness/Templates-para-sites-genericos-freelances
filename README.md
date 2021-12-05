@@ -8,10 +8,10 @@
 
 -<strong>Os templates a seguir levam vc para o Youtube onde terá um mini vídeo mostrando o site.<strong>
 
-- [Template 01](https://youtu.be/mu1apfgG6dE) -> modern site responsive -> inspired in ufc
-- [Template 02]() -> Coffer store site responsive -> inspired in mr web designer
-- [Template 03](https://youtu.be/_V5wwVPSfy4) -> hotel information layout responsive -> inspired in node studios treinamento
-- [Template 04]()
+- [Template 01](https://imgur.com/gallery/C30dh76) -> modern site responsive -> inspired in ufc
+- [Template 02](https://imgur.com/gallery/JfvETMJ) -> Coffer store site responsive -> inspired in mr web designer
+- [Template 03](https://imgur.com/gallery/qga2CZO) -> hotel information layout responsive -> inspired in node studios treinamento
+- [Template 04](https://imgur.com/gallery/N45wO5a) -> plans site responsive -> inspired in inkasa
 - [Template 05]()
 - [Template 06]()
 
