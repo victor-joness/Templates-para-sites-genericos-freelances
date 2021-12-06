@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.container {
+    display: grid;
+    min-height: 100vh;
+    place-items:center;
+    padding-bottom: 60px;
+    background: #fbb45f;
+}
+
+.container .open-btn{
+    background:#fff;
+    color: #333;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+/* quando eu passo o mouse me cima */
+.container .open-btn:hover{
+    letter-spacing: 1px;
+}
+/* quando o botao estar ativo */
+.container .open-btn:active{
+    box-shadow: none;
+    transform: scale(.9);
+}
+
+.cookies-box{
+    width: 350px;
+    /* para ficar fixado na pagina inicial, sem necessidade de quebra de linha */
+    position: fixed;
+    /* coloca a div 100px pra cima e 20px pra esquerda, é diferente de margin */
+    bottom: 100px;
+    left: -400px;
+    /* z-index só funcina para elementos posicionados , nesse cado é fixed, e ele serve para declarar a prioridade do item */
+    z-index: 1000;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 30px;
+}
+
+.cookies-box.active{
+    left: 20px;
+}
+
+/* parte da animação e tamanho da image */
+.cookies-box img{
+    width: 110px;
+    animation: image 10s linear infinite;
+}
+
+@keyframes image{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+/* um exemplo de animation que o objeto começa grande e termina pequeno */
+/* @keyframes image{
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      width: 100%;
+    }
+  } */
+
+.cookies-box h3{
+    color: #333;
+    font-size: 23px;
+    padding: 5px 0;
+}
+
+.cookies-box p{
+    color: #666;
+    font-size: 15px;
+    padding: 5px 0;
+    /* tamanho da linha, serve para dar espaçamento entre oque ta escrito */
+    line-height: 1.8;
+}
+
+.cookies-box .accept{
+    background: #fbb45f;
+    color: #fff;
+    border-radius: 5px;
+    /* A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são*/
+    display: block;
+    margin: 10px ;
+    padding: 10px;
+}
+
+/* quando eu passo o mouse me cima */
+.cookies-box .accept:hover{
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+/* quando o botao estar ativo */
+.cookies-box .accept:active{
+    box-shadow: none;
+    transform: scale(.9);
+}
+
+.cookies-box .setting{
+    background:#666;
+    color: #fff;
+    border-radius: 5px;
+    /* A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são*/
+    display: block;
+    margin: 10px ;
+    padding: 10px;
+}
+
+.cookies-box .setting:hover{
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+/* quando o botao estar ativo */
+.cookies-box .setting:active{
+    box-shadow: none;
+    transform: scale(.9);
+}
+
+.cookies-box .close-btn{
+    position: absolute;
+    top: -2px;
+    right: 12px;
+    font-size: 40px;
+    color: #999;
+    cursor: pointer;
+}
+
+.cookies-box .close-btn:hover{
+    color: #333;
+}
+

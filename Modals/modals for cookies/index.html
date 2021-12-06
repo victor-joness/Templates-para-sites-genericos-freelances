@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="open-btn">show popup</button>
+    </div>
+
+    <div class="cookies-box">
+        <span class="close-btn" >&times;</span>
+        <img src="img/1548612994.png" alt="">
+        <h3>Cookies and privacy</h3>
+        <p>This website uses cookies to ensure you get the best experience on our website</p>
+        <a href="#" class="accept">Accept all cookies</a>
+        <a href="#" class="setting">customize settings</a>
+    </div>
+
+    <script>
+        document.querySelector('.open-btn').onclick = () => {
+            document.querySelector('.cookies-box').classList.add('active');
+        }
+
+        document.querySelector('.close-btn').onclick = () => {
+            document.querySelector('.cookies-box').classList.remove('active');
+        }
+    </script>
+</body>
+
+</html>
