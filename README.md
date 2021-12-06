@@ -6,7 +6,7 @@
 
 ## 🔖 Informações
 
--<strong>Os templates a seguir levam vc para o Youtube onde terá um mini vídeo mostrando o site.<strong>
+-<strong>Os templates a seguir levam vc para o Imgur onde terá uma foto mostrando o site completo.<strong>
 
 - [Template 01](https://imgur.com/gallery/C30dh76) -> modern site responsive -> inspired in ufc
 - [Template 02](https://imgur.com/gallery/JfvETMJ) -> Coffer store site responsive -> inspired in mr web designer
@@ -57,7 +57,11 @@
   
 - Login and logout (em construção, parte visual pronta)
 - carrossel ()
-- Modals (em construção o script)
+- Modals (em construção o script)                                                            
+  ->Modal for cookies ✔️                                                          
+  ->Modal for satisfaction 🚧                                        
+  ->Modal for middle of the screen 🚧                                                                
+  ->Modal for middle popup with 2 buttons 🚧                                                                   
 - Animation (Update- 3 animations add)
 
 # 👷 Como rodar
