@@ -62,8 +62,14 @@
   ->Modal for satisfaction 🚧                                        
   ->Modal for middle of the screen 🚧                                                                
   ->Modal for middle popup with 2 buttons 🚧                                                                   
-- Animation (Update- 3 animations add)
-
+- Animation -> (Update- 3 animations add)
+- library for front end                                                     
+    ->Integrate Atropos JS 3D Parallax ✔️                                                                              
+    ->Integrate SWIPERJS (Sliders) ✔️                               
+- Forms Validators                                                           
+  -> Plugin for Validator (jbvalidator)✔️                                                    
+  -> Validator JavaScript 🚧                                                     
+  -> Validator Backend 🚧                                                    
 # 👷 Como rodar
 
 ```bash
