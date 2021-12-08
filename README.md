@@ -60,7 +60,7 @@
 - carrossel ()
 - Modals (em construção o script)                                                            
   ->Modal for cookies ✔️                                                          
-  ->Modal for satisfaction 🚧                                        
+  ->Modal for satisfaction ✔️                                        
   ->Modal for middle of the screen 🚧                                                                
   ->Modal for middle popup with 2 buttons 🚧                                                                   
 - Animation -> (Update- 3 animations add)
