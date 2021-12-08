@@ -67,6 +67,7 @@
 - library for front end                                                     
     ->Integrate Atropos JS 3D Parallax ✔️                                                                              
     ->Integrate SWIPERJS (Sliders) ✔️                               
+    ->Integrate Typed-JS (A JS Typing Animation Library) ✔️                                            
 - Forms Validators                                                           
   -> Plugin for Validator (jbvalidator)✔️                                                    
   -> Validator JavaScript 🚧                                                     
