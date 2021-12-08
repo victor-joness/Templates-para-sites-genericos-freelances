@@ -4,16 +4,17 @@
 ✔️Templates de sites feito para estudar HTML,CSS,JS todos resposivos ideias para freelances
 </h3>
 
-## 🔖 Informações
+### 🔖 Informações
 
--<strong>Os templates a seguir levam vc para o Imgur onde terá uma foto mostrando o site completo.<strong>
+|Sl.No| Template Name  | Live Example |
+|-----|----------------|--------------|
+|  01  | Modern site responsive -> inspired in ufc                     |[live example](https://imgur.com/gallery/C30dh76)|	                                                  
+|  02  | Coffer store site responsive -> inspired in mr web designer           |[live example](https://imgur.com/gallery/JfvETMJ)	|    
+|  03  | Hotel information layout responsive -> inspired in node studios treinamento               |[live example](https://imgur.com/gallery/qga2CZO)|	 
+|  04  | Plans site responsive -> inspired in inkasa            |[live example](https://imgur.com/gallery/N45wO5a)|	 
+|  05  | Template 05            |[live example](#)|
+|  06  | Template 06           |[live example](#)|
 
-- [Template 01](https://imgur.com/gallery/C30dh76) -> modern site responsive -> inspired in ufc
-- [Template 02](https://imgur.com/gallery/JfvETMJ) -> Coffer store site responsive -> inspired in mr web designer
-- [Template 03](https://imgur.com/gallery/qga2CZO) -> hotel information layout responsive -> inspired in node studios treinamento
-- [Template 04](https://imgur.com/gallery/N45wO5a) -> plans site responsive -> inspired in inkasa
-- [Template 05]()
-- [Template 06]()
 
 ## 🚀 Tecnologias utilizadas 
 
@@ -59,11 +60,17 @@
 - carrossel ()
 - Modals (em construção o script)                                                            
   ->Modal for cookies ✔️                                                          
-  ->Modal for satisfaction 🚧                                        
+  ->Modal for satisfaction ✔️                                        
   ->Modal for middle of the screen 🚧                                                                
   ->Modal for middle popup with 2 buttons 🚧                                                                   
-- Animation (Update- 3 animations add)
-
+- Animation -> (Update- 3 animations add)
+- library for front end                                                     
+    ->Integrate Atropos JS 3D Parallax ✔️                                                                              
+    ->Integrate SWIPERJS (Sliders) ✔️                               
+- Forms Validators                                                           
+  -> Plugin for Validator (jbvalidator)✔️                                                    
+  -> Validator JavaScript 🚧                                                     
+  -> Validator Backend 🚧                                                    
 # 👷 Como rodar
 
 ```bash
