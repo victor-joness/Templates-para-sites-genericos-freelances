@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e1f9f4dde.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <button id="open">Click me</button>
+    </div>
+
+    <div class="model-container">
+        <div class="model">
+            <i class="fas fa-heart"></i>
+            <h3>model popup box</h3>
+            <p>lorem ipsum dolor sit, sdufhgashdasdiashasfhhfafoiasdf</p>
+            <button>ok</button>
+            <button>cancel</button>
+            <i class="fas fa-times" id="close"></i>
+        </div>
+    </div>
+
+    <script>
+        var open = document.querySelector('#open');
+        var close = document.querySelector('#close');
+        var box = document.querySelector('.model-container');
+
+        open.addEventListener('click', () => {
+            box.style.display = "block";
+        });
+    
+        close.addEventListener('click', () => {
+            box.style.display = "none";
+        });
+    </script>
+</body>
+</html>

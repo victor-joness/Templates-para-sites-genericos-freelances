@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(img/3970489.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#open{
+    height: 50px;
+    width: 180px;
+    background: #fff;
+    color: #333;
+    font-size: 25px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+}
+
+#open:hover{
+    letter-spacing: 4px;
+    opacity: .8;
+}
+
+
+/* criando a camada do modal que fica por baixo, amis escura */
+.model-container{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 200px;
+    padding-left: 300px;
+    background: rgba(0,0,0,.3);
+}
+
+.model-container .model{
+    height: 400px;
+    max-width: 350px;
+    margin:0 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.model-container .model .fa-heart{
+    font-size: 100px;
+    color: #f9ca24;
+    padding-bottom: 50px;
+    margin:10px 0;
+    text-shadow: 0 3px 5px rgba(0,0,0,.3), 30px 30px 0 #ccc,-30px 30px 0 #333;
+}
+
+.model-container .model h3{
+    color: #333;
+    font-size: 25px;
+}
+
+.model-container .model p{
+    color:#666;
+    margin: 20px 0;
+}
+
+.model-container .model button{
+    height: 35px;
+    width: 120px;
+    background: #333;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}
+
+.model-container .model button:hover{
+    opacity: .8;
+}
+
+.model-container .model .fa-times{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.model-container .model .fa-times:hover{
+    transform: rotate(90deg);
+}
+
+
+
