@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.atroposes {
+    width: 100%;
+    display: flex;
+}
+
+.des-atropos{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+
+.text-over {
+    position: absolute;
+    bottom: 90px;
+    left: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 180%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-over-2 {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 180%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
