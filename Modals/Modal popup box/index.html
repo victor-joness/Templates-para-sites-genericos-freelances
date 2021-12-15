@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <i class="fas fa-envelope-open-text"></i>
+        <h3>Don't miss any update</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <form action="index.html" method="post">
+            <input type="email" placeholder="enter you email">
+            <input type="submit" value="subscribe" >
+        </form> 
+        <span id="close" class="fas fa-times"></span>
+        </div>
+    </div>
+
+    <button id="open">Click here</button>
+    
+</body>
+
+<script>
+
+    var open = document.querySelector('#open');
+    var close = document.querySelector('#close');
+    var box = document.querySelector('.box');
+
+    open.addEventListener('click', () => {
+        box.style.display = "block";
+    });
+    
+    close.addEventListener('click', () => {
+        box.style.display = "none";
+    });
+
+</script>
+</html>

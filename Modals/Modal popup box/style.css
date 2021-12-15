@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: .2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+
+.box{
+    height: 300px;
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 20px;
+    box-shadow: 0 3px 8px #666;
+    z-index: 1000;
+    display: none;
+    animation: animate .3s linear;
+}
+
+@keyframes animate {
+    0%{
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+}
+
+.box i {
+    font-size: 80px;
+    margin: 25px 0;
+    color: crimson;
+
+}
+
+.box p {
+    font-size: 17px;
+    color: #333;
+    padding: 15px 0;
+}
+
+.box form {
+    height: 48px;
+    width: 100%;
+    background: #333;
+    border-radius: 50px;
+    padding: 7px 0;
+}
+
+.box form input[type="email"]{
+    height: 100%;
+    width: 60%;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+
+.box form input[type="submit"]{
+    height: 100%;
+    width: 34%;
+    outline: none;
+    border: none;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #333;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.box form input[type="submit"]:hover{
+    background: crimson;
+    color: #fff;
+}
+
+.box #close{
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.box #close:hover{
+    transform: rotate(90deg);
+}
+
+#open{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 45px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 3px 5px #666;
+}
+
+#open:hover{
+    letter-spacing: 1px;
+}
+
