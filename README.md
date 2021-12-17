@@ -62,7 +62,7 @@
   ->Modal for cookies ✔️                                                          
   ->Modal for satisfaction ✔️                                        
   ->Modal for middle of the screen 🚧                                                                
-  ->Modal for middle popup with 2 buttons 🚧   
+  ->Modal for middle popup with 2 buttons ✔️   
   ->Modal Simples ✔️                                                                    
 - Animation -> (Update- 3 animations add)
 - library for front end                                                     
