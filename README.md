@@ -64,7 +64,7 @@
   ->Modal for middle of the screen 🚧                                                                
   ->Modal for middle popup with 2 buttons ✔️   
   ->Modal Simples ✔️                                                                    
-- Animation -> (Update- 4 animations add)
+- Animation -> (Update- 6 animations add)
 - library for front end                                                     
     ->Integrate Atropos JS 3D Parallax ✔️                                                                              
     ->Integrate SWIPERJS (Sliders) ✔️                               
