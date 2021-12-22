@@ -12,8 +12,12 @@
 |  02  | Coffer store site responsive -> inspired in mr web designer           |[live example](https://imgur.com/gallery/JfvETMJ)	|    
 |  03  | Hotel information layout responsive -> inspired in node studios treinamento               |[live example](https://imgur.com/gallery/qga2CZO)|	 
 |  04  | Plans site responsive -> inspired in inkasa            |[live example](https://imgur.com/gallery/N45wO5a)|	 
-|  05  | Template 05            |[live example](#)|
-|  06  | Template 06           |[live example](#)|
+|  05  | Template 05            |[live example](https://imgur.com/gallery/y85LHdj)|
+|  06  | Template 06           |[live example](https://imgur.com/gallery/Fqjz1XC)|
+|  07  | Template 07           |[live example](https://imgur.com/gallery/4oiyloA)|
+|  08  | Template 08           |[live example](#)|
+|  09  | Template 09           |[live example](#)|
+|  10  | Template 10           |[live example](#)|
 
 
 ## 🚀 Tecnologias utilizadas 
@@ -64,7 +68,7 @@
   ->Modal for middle of the screen 🚧                                                                
   ->Modal for middle popup with 2 buttons ✔️   
   ->Modal Simples ✔️                                                                    
-- Animation -> (Update- 4 animations add)
+- Animation -> (Update- 6 animations add)
 - library for front end                                                     
     ->Integrate Atropos JS 3D Parallax ✔️                                                                              
     ->Integrate SWIPERJS (Sliders) ✔️                               
