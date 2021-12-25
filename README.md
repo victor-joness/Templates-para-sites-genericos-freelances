@@ -56,6 +56,7 @@
 ### :memo: Funcionalidades: 
 - Buttons and sections prontas para serem adaptadas
 - Responsive
+- Telas de Login Prontas para serem adaptadas
 - Newslatter                                                                                    
   ->Integrado com o front-end, mais básico (consumindo api do formsubmit) ✔️                                                               
   ->Integrado com o Back-end (Em construção) 🚧
