@@ -12,8 +12,8 @@
 |  02  | Coffer store site responsive -> inspired in mr web designer           |[live example](https://imgur.com/gallery/JfvETMJ)	|    
 |  03  | Hotel information layout responsive -> inspired in node studios treinamento               |[live example](https://imgur.com/gallery/qga2CZO)|	 
 |  04  | Plans site responsive -> inspired in inkasa            |[live example](https://imgur.com/gallery/N45wO5a)|	 
-|  05  | Template 05-Simples   |[live example](https://imgur.com/gallery/y85LHdj)|
-|  06  | Template 06           |[live example](https://imgur.com/gallery/Fqjz1XC)|
+|  05  | Simples site responsive com 5 abas |[live example](https://imgur.com/gallery/y85LHdj)|
+|  06  | Educa site responsive |[live example](https://imgur.com/gallery/Fqjz1XC)|
 |  07  | Template 07           |[live example](https://imgur.com/gallery/4oiyloA)|
 |  08  | Template 08           |[live example](#)|
 |  09  | Template 09           |[live example](#)|
