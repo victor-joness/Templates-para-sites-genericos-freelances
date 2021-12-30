@@ -8,6 +8,7 @@
 
 |Sl.No| Template Name  | Live Example |
 |-----|----------------|--------------|
+|  00  | ANO DE 2021         |[live example](#)|
 |  01  | Modern site responsive -> inspired in ufc                     |[live example](https://imgur.com/gallery/C30dh76)|	                                                  
 |  02  | Coffer store site responsive -> inspired in mr web designer           |[live example](https://imgur.com/gallery/JfvETMJ)	|    
 |  03  | Hotel information layout responsive -> inspired in node studios treinamento               |[live example](https://imgur.com/gallery/qga2CZO)|	 
@@ -15,9 +16,11 @@
 |  05  | Simples site responsive com 5 abas |[live example](https://imgur.com/gallery/y85LHdj)|
 |  06  | Educa site responsive |[live example](https://imgur.com/gallery/Fqjz1XC)|
 |  07  | Template 07           |[live example](https://imgur.com/gallery/4oiyloA)|
-|  08  | Template 08           |[live example](#)|
-|  09  | Template 09           |[live example](#)|
-|  10  | Template 10           |[live example](#)|
+|  08  | Template 08           |[live example](https://imgur.com/gallery/MeiUwk4)|
+|  09  | Template 09           |[live example](https://imgur.com/gallery/p1ufzzo)|
+|  10  | Template 10           |[live example](https://imgur.com/gallery/w7b1zgO)|
+|  00  | ANO DE 2022         |[live example](#)|
+
 
 
 ## 🚀 Tecnologias utilizadas 
