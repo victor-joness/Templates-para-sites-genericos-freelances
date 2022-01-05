@@ -17,7 +17,7 @@
 |  06  | Educa site responsive |[live example](https://imgur.com/gallery/Fqjz1XC)|
 |  07  | Site Blue morden Responsive -> inspired mr web   |[live example](https://imgur.com/gallery/4oiyloA)|
 |  08  | Site Events Responsive    |[live example](https://imgur.com/gallery/MeiUwk4)|
-|  09  | Template 09           |[live example](https://imgur.com/gallery/p1ufzzo)|
+|  09  | Site Plans-Modern Responsive     |[live example](https://imgur.com/gallery/p1ufzzo)|
 |  10  | Template 10           |[live example](https://imgur.com/gallery/w7b1zgO)|
 |  00  | 2️⃣0️⃣2️⃣2️⃣      |[live example](#)|
 
