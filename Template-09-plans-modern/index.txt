@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive website desgin tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">marketo.</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#about">about</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#pricing">pricing</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>grow your business with us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere atque sapiente veritatis nesciunt adipisci culpa.</p>
+        <a href="#" class="btn">try for free</a>
+    </div>
+
+    <div class="image">
+        <img src="images/rocket.svg" alt="">
+    </div>
+
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/s-1.png" alt="">
+            <h3>web design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/s-2.png" alt="">
+            <h3>seo marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/s-3.png" alt="">
+            <h3>web hosting</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/s-4.png" alt="">
+            <h3>digital marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/s-5.png" alt="">
+            <h3>ad campaign</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/s-6.png" alt="">
+            <h3>content marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi?</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+    
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="title">big projects start with big dreams</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias blanditiis, fugiat consequatur enim amet ullam facere quaerat, quos quae mollitia inventore! Hic, excepturi debitis velit maxime ut in at iusto.</p>
+            <a href="#" class="btn">learn more</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-award"></i>
+                    <h3>14 award won</h3>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-user"></i>
+                    <h3>250 satisfied clients</h3>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>200 projects completed</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- portfolio section starts   -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> our <span>portfolio</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span>01</span>
+            <img src="images/port-img1.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+                <p>1st may, 2021</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <span>02</span>
+            <img src="images/port-img2.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+                <p>1st may, 2021</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <span>03</span>
+            <img src="images/port-img3.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+                <p>1st may, 2021</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <span>04</span>
+            <img src="images/port-img4.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+                <p>1st may, 2021</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <span>05</span>
+            <img src="images/port-img5.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+                <p>1st may, 2021</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <span>06</span>
+            <img src="images/port-img6.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+                <p>1st may, 2021</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- pricing section starts  -->
+
+<section class="pricing" id="pricing">
+
+    <h1 class="heading"> our <span>pricing</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>basic plan</h3>
+            <img src="images/p-1.png" alt="">
+            <div class="price"> <span>$</span>30.99<span>/mo</span> </div>
+            <ul>
+                <li>5GB data</li>
+                <li>2 domains</li>
+                <li>seo marketing</li>
+                <li>24 / 7 services</li>
+                <li>maintainance</li>
+            </ul>
+            <a href="#" class="btn">choose plan</a>
+        </div>
+
+        <div class="box">
+            <h3>standard plan</h3>
+            <img src="images/p-2.png" alt="">
+            <div class="price"> <span>$</span>50.99<span>/mo</span> </div>
+            <ul>
+                <li>10GB data</li>
+                <li>10 domains</li>
+                <li>seo marketing</li>
+                <li>24 / 7 services</li>
+                <li>maintainance</li>
+            </ul>
+            <a href="#" class="btn">choose plan</a>
+        </div>
+
+        <div class="box">
+            <h3>premium plan</h3>
+            <img src="images/p-3.png" alt="">
+            <div class="price"> <span>$</span>90.99<span>/mo</span> </div>
+            <ul>
+                <li>20GB data</li>
+                <li>20 domains</li>
+                <li>seo marketing</li>
+                <li>24 / 7 services</li>
+                <li>maintainance</li>
+            </ul>
+            <a href="#" class="btn">choose plan</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- pricing section ends -->
+
+<!-- reivew section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> client's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-1.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui rerum ducimus, fuga numquam itaque modi magnam officiis obcaecati! Aliquid delectus aperiam harum voluptas animi unde sapiente quidem laudantium facere? Deserunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rerum explicabo illo libero modi quos laboriosam, totam eligendi. Adipisci, itaque.</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-2.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui rerum ducimus, fuga numquam itaque modi magnam officiis obcaecati! Aliquid delectus aperiam harum voluptas animi unde sapiente quidem laudantium facere? Deserunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rerum explicabo illo libero modi quos laboriosam, totam eligendi. Adipisci, itaque.</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-3.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui rerum ducimus, fuga numquam itaque modi magnam officiis obcaecati! Aliquid delectus aperiam harum voluptas animi unde sapiente quidem laudantium facere? Deserunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rerum explicabo illo libero modi quos laboriosam, totam eligendi. Adipisci, itaque.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- reivew section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="icons-container">
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>our number</h3>
+            <p>+123-456-7890</p>
+            <p>+111-222-3333</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>shaikhanas@gmail.com</p>
+            <p>anashaikh@gmail.com</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>our location</h3>
+            <p>mumbai, india - 400104</p>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629804296059!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+            <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+        
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> portfolio </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> pricing </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>our services</h3>
+            <a href="#"> <i class="fas fa-check"></i> web design </a>
+            <a href="#"> <i class="fas fa-check"></i> digital marketing </a>
+            <a href="#"> <i class="fas fa-check"></i> email marketing </a>
+            <a href="#"> <i class="fas fa-check"></i> content marketing </a>
+            <a href="#"> <i class="fas fa-check"></i> seo marketing </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+    </div>
+
+    <div class="credit">created by <span>mr. web designer</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
