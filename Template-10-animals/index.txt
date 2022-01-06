@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive pet food website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><i class="fas fa-bone"></i>pedie</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#category">category</a>
+        <a href="#featured">featured</a>
+        <a href="#products">products</a>
+        <a href="#offer">offer</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+    <form action="" id="search-box">
+        <input type="search" id="search" placeholder="search here">
+        <label for="search" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span>upto 50% off</span>
+        <h3>we care about <br> your pet!</h3>
+        <a href="#" class="btn">get started</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- category section starts  -->
+
+<section class="category" id="category">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> shop by category <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="images/c1.webp" alt="">
+            <h3>food for dogs</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/c2.webp" alt="">
+            <h3>food for cats</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/c3.webp" alt="">
+            <h3>food for rabbits</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/c4.webp" alt="">
+            <h3>food for birds</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> our featured products <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="price">$14.05</div>
+            <img src="images/p1.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>tasty pets food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, facilis?</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="price">$15.40</div>
+            <img src="images/p2.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>tasty pets food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, facilis?</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <span>upto 70% off</span>
+    <h3>tasty and healthy pets food</h3>
+    <a href="#" class="btn">see the deal now</a>
+
+</section>
+
+<!-- deal section ends -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> our latest products <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p1.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p2.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p3.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p4.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p5.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p6.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- offer section starts  -->
+
+<section class="offer" id="offer">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> our latest offer <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/offer-img1.webp" alt="">
+            <div class="content">
+                <span>best offer</span>
+                <h3>upto 40% off</h3>
+                <a href="#" class="btn">see offer</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/offer-img2.webp" alt="">
+            <div class="content">
+                <span>only for today</span>
+                <h3>upto 80% off</h3>
+                <a href="#" class="btn">see offer</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- offer section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> contact us <i class="fas fa-paw"></i> </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+
+        <input type="submit" value="send message" class="btn">
+
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+    
+    <div class="share">
+        <a href="#" class="btn">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+
+    <h1 class="credit"> created by <span> mr. web designer </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
