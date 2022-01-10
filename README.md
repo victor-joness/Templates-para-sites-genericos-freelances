@@ -18,8 +18,11 @@
 |  07  | Site Blue morden Responsive -> inspired mr web   |[live example](https://imgur.com/gallery/4oiyloA)|
 |  08  | Site Events Responsive    |[live example](https://imgur.com/gallery/MeiUwk4)|
 |  09  | Site Plans-Modern Responsive     |[live example](https://imgur.com/gallery/p1ufzzo)|
-|  10  | Template 10           |[live example](https://imgur.com/gallery/w7b1zgO)|
+|  10  | Site animals-Responsive     |[live example](https://imgur.com/gallery/w7b1zgO)|
 |  00  | 2️⃣0️⃣2️⃣2️⃣      |[live example](#)|
+|  11  | Site Planner Agency -> inspired mr web     |[live example](https://imgur.com/gallery/zXx626h)|
+|  12  | template 12     |[live example](#)|
+|  13  | template 13    |[live example](#)|
 
 
 
