@@ -78,7 +78,7 @@
   ->Integrado com o front-end, mais básico (consumindo api do formsubmit) ✔️                                                               
   ->Integrado com o Back-end (Em construção) 🚧
   
-- Login and logout (em construção, parte visual pronta)
+- Login and Sign-up (em construção, parte visual pronta)
 - carrossel ()
 - Modals (em construção o script)                                                            
   ->Modal for cookies ✔️                                                          
