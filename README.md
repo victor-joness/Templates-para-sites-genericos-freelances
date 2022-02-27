@@ -26,6 +26,15 @@
 |  14  | Site Responsive library and books |[live example](https://imgur.com/gallery/2XVvdPQ)|
 |  15  | Site Responsive Food website |[live example](https://imgur.com/gallery/Ltk8DtL)|
 |  16  | Site Responsive Nature-Website |[live example](https://imgur.com/gallery/fV1rP1z)|
+|  17  | Template |[live example](#)|
+|  18  | Template |[live example](#)|
+|  19  | Template |[live example](#)|
+|  20  | Template |[live example](#)|
+|  21  | Template |[live example](#)|
+|  22  | Template |[live example](#)|
+|  23  | Template |[live example](#)|
+|  24  | Template |[live example](#)|
+|  25  | Template |[live example](#)|
 
 
 
@@ -109,6 +118,12 @@ git clone https://github.com/victor-joness/Templates-para-sites-genericos-freela
 
 
 ## :mortar_board: Autores
+```bash
+# Agradecimentos:
+  - Inkasa Dev
+  - Mr Web Designer
+  - Node studios
+```
 
 <table align="center">
     <tr>
