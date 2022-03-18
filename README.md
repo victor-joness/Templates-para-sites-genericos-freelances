@@ -36,6 +36,16 @@
 |  24  | Template |[live example](#)|
 |  25  | Template |[live example](#)|
 
+<h3 >
+✔️Templates de sites feito para estudar React e TypeScript todos resposivos ideias para freelances
+</h3>
+
+|Sl.No| Template Name  | Live Example |
+|-----|----------------|--------------|
+|  00  | 2️⃣0️⃣2️⃣1️⃣   -------------------------------  2️⃣0️⃣2️⃣1️⃣  |[live example](#)|
+|  01  | Login and subscribe Kara        |[live example](#)|	                                                  
+|  02  |      |[live example](#)|    
+
 
 
 ## 🚀 Tecnologias utilizadas 
