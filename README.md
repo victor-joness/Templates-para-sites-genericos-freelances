@@ -27,14 +27,19 @@
 |  15  | WebSite Responsive Food website       |[live example](https://imgur.com/gallery/Ltk8DtL)|
 |  16  | WebSite Responsive Nature-Website     |[live example](https://imgur.com/gallery/fV1rP1z)|
 |  17  | Template |[live example](#)|
-|  18  | Template |[live example](#)|
-|  19  | Template |[live example](#)|
+|  18  | WebSite Responsive Grocery Store |[live example](#)|
+|  19  | WebSite Responsive Kid Store |[live example](#)|
 |  20  | Template |[live example](#)|
 |  21  | Template |[live example](#)|
 |  22  | Template |[live example](#)|
 |  23  | Template |[live example](#)|
 |  24  | Template |[live example](#)|
 |  25  | Template |[live example](#)|
+|  26  | WebSite Responsive Nice Commerce |[live example](#)|
+|  27  | WebSite Responsive Wakanda |[live example](#)|
+|  28  | WebSite Responsive PodCast-Template |[live example](#)|
+|  29  | Template |[live example](#)|
+|  30  | Template |[live example](#)|
 
 <h3 >
 ✔️Templates de sites feito para estudar React e TypeScript todos resposivos ideias para freelances
