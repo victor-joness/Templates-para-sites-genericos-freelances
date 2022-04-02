@@ -1,0 +1,140 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222237;
+}
+
+.menu{
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .toggle{
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #222327;
+}
+
+.menu .toggle.active{
+    transform: rotate(315deg);
+    box-shadow: 0 0 0 6rem #fff;
+    background: #222237;
+    color: #fff;
+}
+
+.menu li{
+    position: absolute;
+    left: 1rem;
+    list-style: none;
+    transform: rotate(calc(360deg/ 8* var(--i))) translateX(4rem);
+    transform-origin: 14rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.menu.active li{
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    font-size: 2rem;
+    color: #222237;
+    transform: rotate(calc(360deg/ -8* var(--i)));
+    border-radius: 50%;
+}
+
+.menu.active li.active{
+    transform: rotate(calc(360deg/ 8* var(--i))) translateX(1.5rem);
+}
+
+.menu .indicator{
+    position: absolute;
+    left: calc(50% + .25rem);
+    transform-origin:right ;
+    width: 10rem;
+    height: 1px;
+    background: transparent;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.menu .indicator::before{
+    content: "";
+    position: absolute;
+    top: -2.8rem;
+    left: 72px;
+    width: 6rem;
+    height: 6rem;
+    background: #222237;
+    box-shadow: 0 0 0 .35rem #29fd53;
+    border-radius: 50%;
+    transition: .5s;
+    opacity: 0;
+}
+.menu.active .indicator::before{
+    opacity: 1;
+    top: -2.8rem;
+    left: -2.8rem;
+    background: #29fd53;
+    box-shadow: 0 0 0 .6rem #222237;
+}
+
+.menu li:nth-child(2).active ~ .indicator{
+    color: #222237;
+    transform: translateX(-10rem) rotate(0deg);
+}
+
+.menu li:nth-child(3).active ~ .indicator{
+    transform: translateX(-10rem) rotate(45deg);
+}
+
+.menu li:nth-child(4).active ~ .indicator{
+    transform: translateX(-10rem) rotate(90deg);
+}
+
+.menu li:nth-child(5).active ~ .indicator{
+    transform: translateX(-10rem) rotate(135deg);
+}
+
+.menu li:nth-child(6).active ~ .indicator{
+    transform: translateX(-10rem) rotate(180deg);
+}
+
+.menu li:nth-child(7).active ~ .indicator{
+    transform: translateX(-10rem) rotate(225deg);
+}
+
+.menu li:nth-child(8).active ~ .indicator{
+    transform: translateX(-10rem) rotate(270deg);
+}
+
+.menu li:nth-child(9).active ~ .indicator{
+    transform: translateX(-10rem) rotate(315deg);
+}   
