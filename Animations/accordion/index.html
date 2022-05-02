@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="accordion">
+        <div class="contentBx">
+            <div class="label">List One</div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum exercitationem sint reiciendis veniam optio asperiores nesciunt deserunt impedit! Dolorum earum tenetur inventore ratione, fugit reiciendis ipsa asperiores soluta culpa deleniti!</p>
+            </div>
+        </div>
+
+        <div class="contentBx contentBx2">
+            <div class="label">List two</div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum exercitationem sint reiciendis veniam optio asperiores nesciunt deserunt impedit! Dolorum earum tenetur inventore ratione, fugit reiciendis ipsa asperiores soluta culpa deleniti!</p>
+            </div>
+        </div>
+
+        <div class="contentBx contentBx3">
+            <div class="label">List tree</div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum exercitationem sint reiciendis veniam optio asperiores nesciunt deserunt impedit! Dolorum earum tenetur inventore ratione, fugit reiciendis ipsa asperiores soluta culpa deleniti!</p>
+            </div>
+        </div>
+
+        <div class="contentBx contentBx4">
+            <div class="label">List Four</div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum exercitationem sint reiciendis veniam optio asperiores nesciunt deserunt impedit! Dolorum earum tenetur inventore ratione, fugit reiciendis ipsa asperiores soluta culpa deleniti!</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const accordion = window.document.querySelector(".contentBx");
+        const accordion2 = window.document.querySelector(".contentBx2");
+        const accordion3 = window.document.querySelector(".contentBx3");
+        const accordion4 = window.document.querySelector(".contentBx4");
+
+        accordion.addEventListener("click", () => {accordion.classList.toggle("active")})
+        accordion2.addEventListener("click", () => {accordion2.classList.toggle("active")})
+        accordion3.addEventListener("click", () => {accordion3.classList.toggle("active")})
+        accordion4.addEventListener("click", () => {accordion4.classList.toggle("active")})
+    </script>
+</body>
+</html>
