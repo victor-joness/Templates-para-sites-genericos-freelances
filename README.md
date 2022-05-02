@@ -8,24 +8,48 @@
 
 |Sl.No| Template Name  | Live Example |
 |-----|----------------|--------------|
-|  00  | 2️⃣0️⃣2️⃣1️⃣       |[live example](#)|
-|  01  | Modern site responsive -> inspired in ufc                     |[live example](https://imgur.com/gallery/C30dh76)|	                                                  
-|  02  | Coffer store site responsive -> inspired in mr web designer           |[live example](https://imgur.com/gallery/JfvETMJ)	|    
-|  03  | Hotel information layout responsive -> inspired in node studios treinamento               |[live example](https://imgur.com/gallery/qga2CZO)|	 
-|  04  | Plans site responsive -> inspired in inkasa            |[live example](https://imgur.com/gallery/N45wO5a)|	 
-|  05  | Simples site responsive com 5 abas |[live example](https://imgur.com/gallery/y85LHdj)|
-|  06  | Educa site responsive |[live example](https://imgur.com/gallery/Fqjz1XC)|
-|  07  | Site Blue morden Responsive -> inspired mr web   |[live example](https://imgur.com/gallery/4oiyloA)|
-|  08  | Site Events Responsive    |[live example](https://imgur.com/gallery/MeiUwk4)|
-|  09  | Site Plans-Modern Responsive     |[live example](https://imgur.com/gallery/p1ufzzo)|
-|  10  | Site animals-Responsive     |[live example](https://imgur.com/gallery/w7b1zgO)|
-|  00  | 2️⃣0️⃣2️⃣2️⃣      |[live example](#)|
-|  11  | Site Planner Agency -> inspired mr web     |[live example](https://imgur.com/gallery/zXx626h)|
-|  12  | Site app landing page |[live example](https://imgur.com/gallery/h64F995)|
-|  13  | Site Responsive Car Selling    |[live example](https://imgur.com/gallery/XztsemN)|
-|  14  | Site Responsive library and books |[live example](https://imgur.com/gallery/2XVvdPQ)|
-|  15  | Site Responsive Food website |[live example](https://imgur.com/gallery/Ltk8DtL)|
-|  16  | Template 16 |[live example](#)|
+|  00  | 2️⃣0️⃣2️⃣1️⃣   -------------------------------  2️⃣0️⃣2️⃣1️⃣  |[live example](#)|
+|  01  | WebSite Responsive Modern site        |[live example](https://imgur.com/gallery/C30dh76)|	                                                  
+|  02  | WebSite Responsive Coffer store       |[live example](https://imgur.com/gallery/JfvETMJ)|    
+|  03  | WebSite Responsive Hotel information  |[live example](https://imgur.com/gallery/qga2CZO)|	 
+|  04  | WebSite Responsive FrontBox           |[live example](https://imgur.com/gallery/N45wO5a)|	 
+|  05  | WebSite Responsive Simples com 5 abas |[live example](https://imgur.com/gallery/y85LHdj)|
+|  06  | WebSite Responsive Educa              |[live example](https://imgur.com/gallery/Fqjz1XC)|
+|  07  | WebSite Responsive Blue morden        |[live example](https://imgur.com/gallery/4oiyloA)|
+|  08  | WebSite Responsive Events             |[live example](https://imgur.com/gallery/MeiUwk4)|
+|  09  | WebSite Responsive Plans-Modern       |[live example](https://imgur.com/gallery/p1ufzzo)|
+|  10  | WebSite Responsive Animals            |[live example](https://imgur.com/gallery/w7b1zgO)|
+|  00  | 2️⃣0️⃣2️⃣2️⃣  -------------------------------  2️⃣0️⃣2️⃣2️⃣  |[live example](#)|
+|  11  | WebSite Responsive Planner Agency     |[live example](https://imgur.com/gallery/zXx626h)|
+|  12  | WebSite Responsive app landing page   |[live example](https://imgur.com/gallery/h64F995)|
+|  13  | WebSite Responsive Car Selling        |[live example](https://imgur.com/gallery/XztsemN)|
+|  14  | WebSite Responsive Library and books  |[live example](https://imgur.com/gallery/2XVvdPQ)|
+|  15  | WebSite Responsive Food website       |[live example](https://imgur.com/gallery/Ltk8DtL)|
+|  16  | WebSite Responsive Nature-Website     |[live example](https://imgur.com/gallery/fV1rP1z)|
+|  17  | Template |[live example](#)|
+|  18  | WebSite Responsive Grocery Store |[live example](#)|
+|  19  | WebSite Responsive Kid Store |[live example](#)|
+|  20  | Template |[live example](#)|
+|  21  | Template |[live example](#)|
+|  22  | Template |[live example](#)|
+|  23  | Template |[live example](#)|
+|  24  | Template |[live example](#)|
+|  25  | Template |[live example](#)|
+|  26  | WebSite Responsive Nice Commerce |[live example](#)|
+|  27  | WebSite Responsive Wakanda |[live example](#)|
+|  28  | WebSite Responsive PodCast-Template |[live example](#)|
+|  29  | Template |[live example](#)|
+|  30  | Template |[live example](#)|
+
+<h3 >
+✔️Templates de sites feito para estudar React e TypeScript todos resposivos ideias para freelances
+</h3>
+
+|Sl.No| Template Name  | Live Example |
+|-----|----------------|--------------|
+|  00  | 2️⃣0️⃣2️⃣1️⃣   -------------------------------  2️⃣0️⃣2️⃣1️⃣  |[live example](#)|
+|  01  | Login and subscribe Kara        |[live example](#)|	                                                  
+|  02  |      |[live example](#)|    
 
 
 
@@ -69,7 +93,7 @@
   ->Integrado com o front-end, mais básico (consumindo api do formsubmit) ✔️                                                               
   ->Integrado com o Back-end (Em construção) 🚧
   
-- Login and logout (em construção, parte visual pronta)
+- Login and Sign-up (em construção, parte visual pronta)
 - carrossel ()
 - Modals (em construção o script)                                                            
   ->Modal for cookies ✔️                                                          
@@ -109,6 +133,12 @@ git clone https://github.com/victor-joness/Templates-para-sites-genericos-freela
 
 
 ## :mortar_board: Autores
+```bash
+# Agradecimentos:
+  - Inkasa Dev
+  - Mr Web Designer
+  - Node studios
+```
 
 <table align="center">
     <tr>
