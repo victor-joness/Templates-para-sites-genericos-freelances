@@ -1,0 +1,1 @@
+const accordion = window.document.querySelector(".")
