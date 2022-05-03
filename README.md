@@ -1,4 +1,4 @@
-![align="center"](https://imgur.com/a/ksZ7zSi)
+![align="center"](https://i.imgur.com/6eV7DzR.png)
 
 <h3 >
 ✔️Templates de sites feito para estudar HTML,CSS,JS todos resposivos ideias para freelances
