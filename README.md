@@ -1,4 +1,4 @@
-![align="center"](https://evernote.com/blog/wp-content/uploads/2018/01/Templates-Guide-header-640x360-640x360.png)
+![align="center"](https://imgur.com/a/ksZ7zSi)
 
 <h3 >
 ✔️Templates de sites feito para estudar HTML,CSS,JS todos resposivos ideias para freelances
