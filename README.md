@@ -26,18 +26,18 @@
 |  14  | WebSite Responsive Library and books  |[live example](https://imgur.com/gallery/2XVvdPQ)|
 |  15  | WebSite Responsive Food website       |[live example](https://imgur.com/gallery/Ltk8DtL)|
 |  16  | WebSite Responsive Nature-Website     |[live example](https://imgur.com/gallery/fV1rP1z)|
-|  17  | Template |[live example](#)|
-|  18  | WebSite Responsive Grocery Store |[live example](#)|
-|  19  | WebSite Responsive Kid Store |[live example](#)|
+|  17  | WebSite Responsive Fusely Company|[live example](https://imgur.com/gallery/SCv4EdK)|
+|  18  | WebSite Responsive Grocery Store |[live example](https://imgur.com/gallery/2mxQmXW)|
+|  19  | WebSite Responsive Kid Store |[live example](https://imgur.com/gallery/7EL7Cbw)|
 |  20  | Template |[live example](#)|
 |  21  | Template |[live example](#)|
 |  22  | Template |[live example](#)|
 |  23  | Template |[live example](#)|
 |  24  | Template |[live example](#)|
 |  25  | Template |[live example](#)|
-|  26  | WebSite Responsive Nice Commerce |[live example](#)|
-|  27  | WebSite Responsive Wakanda |[live example](#)|
-|  28  | WebSite Responsive PodCast-Template |[live example](#)|
+|  26  | WebSite Responsive Nice Commerce |[live example](https://imgur.com/gallery/R2OxV71)|
+|  27  | WebSite Responsive Wakanda Recruit talents |[live example](https://imgur.com/gallery/E4lRpwG)|
+|  28  | WebSite Responsive PodCast-Template |[live example](https://imgur.com/gallery/598fPKs)|
 |  29  | Template |[live example](#)|
 |  30  | Template |[live example](#)|
 
