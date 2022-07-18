@@ -5,6 +5,10 @@
 /services
 /.pnp
 .pnp.js
+tsconfig.json
+yarn.lock
+package.json
+package-lock.json
 
 
 # testing
