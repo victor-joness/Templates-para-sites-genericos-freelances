@@ -1,0 +1,19 @@
+@import url(./index.css);
+
+.content .esquerda .infos h2{
+    margin-bottom: 2rem;
+}
+
+.content .esquerda .form .nickname p, .content .esquerda .form .email p{
+    font-size: 2rem;
+}
+
+.content .esquerda .form .nickname p span, .content .esquerda .form .email p span{
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: blue;
+}
+
+.content .esquerda .form .btn{
+    margin-top: 2rem;
+}
