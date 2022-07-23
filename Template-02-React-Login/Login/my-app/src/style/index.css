@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0; margin: 0;
+    border: none; outline: none;
+    box-sizing: border-box;
+    transition: .2s all linear;
+}
+
+:root{
+    --blue: #0e0e92;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 3rem 9%;
+}
