@@ -1,0 +1,22 @@
+@import url(./index.css);
+
+.content .esquerda .form .nickname p{
+    font-size: 2rem;
+}
+
+.content .esquerda .form .email p{
+    font-size: 2rem;
+}
+
+.content .esquerda .form .password p{
+    font-size: 2rem;
+}
+
+.content .esquerda .form .nickname input {
+    height: 4rem;
+    width: 100%;
+    border-radius: 5rem;
+    border: 0.1rem solid rgb(187, 187, 187);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
